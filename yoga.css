@@ -95,6 +95,11 @@ main .sidebar-nav ul li a {
 	border: 0.3rem outset gray;
 }
 
+main .sidebar-nav ul li a:hover {
+	color: #A26100;
+	border: 0.3rem inset #333333!important;
+}
+
 main .content {
 	flex: 1;
 	padding: 1.5rem 2rem;
@@ -163,10 +168,8 @@ main .content .hero img {
 .schedule-page main .content .desc {
 	padding: 1rem 0;
 }
-/* nav a:hover {
-	color: #A26100;
-	border: 3px inset #333333;
-} */
+
+
 
 /* FOOTER STYLES */
 footer {
