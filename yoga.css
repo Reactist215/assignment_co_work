@@ -19,6 +19,11 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+	color: inherit;
+
+}
+
 body {
 	margin: 0;
     min-height: 100vh;
@@ -86,9 +91,8 @@ main .sidebar-nav ul li a {
 	display: block;
     padding: 1.3rem;
     text-align: center;
-    border: 0.3rem;
-    border-style: outset;
-    font-size: 1.5rem;
+	font-size: 1.5rem;
+	border: 0.3rem outset gray;
 }
 
 main .content {
@@ -138,7 +142,7 @@ main .floatleft .phone {
 	margin: 1rem 0;
 }
 /* Classes Page Main Style */
-main .content {
+.classes-page main .content {
 	display: flex;
 	flex-direction: column;
 }
@@ -151,10 +155,18 @@ main .content .hero img {
 	padding: 1rem 0;
 }
 
-nav a:hover {
+/* Schedule Page Style */
+.schedule-page main .content {
+	display: flex;
+	flex-direction: column;
+}
+.schedule-page main .content .desc {
+	padding: 1rem 0;
+}
+/* nav a:hover {
 	color: #A26100;
 	border: 3px inset #333333;
-}
+} */
 
 /* FOOTER STYLES */
 footer {
